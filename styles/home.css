@@ -1,0 +1,125 @@
+/* Shared Css */
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    transition: 1300ms;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #36131b;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Header Related Styles */
+
+header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0px 230px;
+
+}
+
+.header-img {
+    width: 400px;
+}
+
+.header-content {
+    margin-bottom: 100px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+/* Start for feature flower */
+.feature-flower {
+    text-align: center;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.flowers {
+    display: flex;
+}
+
+.pick-flower {
+    margin-left: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.pick-flower-img {
+    height: 400px;
+    width: 350px;
+}
+
+.flower-item {
+    margin-bottom: 0;
+}
+
+.flower-tree {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.feature-title {
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.feature-des {
+    margin-top: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+/* delivery feature */
+.delivery-container {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    gap: 120px;
+}
+
+.delivery-feature {
+    align-self: center;
+    max-width: 1110px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-item {
+    padding: 30px 50px;
+}
+
+.delivery-img {
+    width: 50px;
+}
